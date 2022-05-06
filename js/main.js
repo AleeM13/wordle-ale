@@ -11,7 +11,7 @@ var width = 5;
 var row = 0;
 var col = 0;
 var GameOver = false
-const wordAle = 'LAZOH'
+const wordAle = 'LAZOS'
 const keys = [
     'Q',
     'W',
