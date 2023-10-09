@@ -11,7 +11,7 @@ var width = 5;
 var row = 0;
 var col = 0;
 var GameOver = false
-const wordAle = 'AGRIO'
+const wordAle = 'ACTOR'
 const keys = [
     'Q',
     'W',
@@ -126,7 +126,7 @@ const checkRow = () => {
             if (currentRow >= 5) {
                 isGameOver = false
                 showMessage('Ups, perdiste mal ahí :(')
-                showMessage('La palabra era "AGRIO"')
+                showMessage('La palabra era "ACTOR"')
                 return
             }
             if (currentRow < 5) {
